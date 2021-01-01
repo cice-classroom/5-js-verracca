@@ -1,4 +1,9 @@
-module.exports = {
+/*
+ * For a detailed explanation regarding each configuration property and type check, visit:
+ * https://jestjs.io/docs/en/configuration.html
+ */
+
+module.export = {
   preset: 'ts-jest',
   automock: false,
   testEnvironment: 'node',

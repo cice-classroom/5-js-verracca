@@ -1,8 +1,22 @@
 {
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "Create the Tic Tac Toe game. One player is represented by \"X\" and the other player by \"O\". The first player that plays is assigned the \"X\". The first player that has 3 contiguos cells occupied wins (vertically, horizontally or diagonally). If no player has 3 contiguos cells the game and all the cells are occupied, the game is drawn. If one of the players wins a message is shown to the user and scored of that player increments by one (scores start at 0 for both players). A player can't play in a cell that is occupied. If a player wins or draws a button appears so that they can play again.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cice-classroom/5-js-verracca.git"
+  },
+  "author": "Maria Veronica Racca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cice-classroom/5-js-verracca/issues"
+  },
+  "homepage": "https://github.com/cice-classroom/5-js-verracca#readme",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "test": "jest --coverage",
+    "test": "jest",
     "test:watch": "jest --watchAll",
     "format": "prettier --write --ignore-path .gitignore .",
     "lint": "eslint .",
@@ -19,14 +33,14 @@
     "@snowpack/plugin-babel": "2.1.5",
     "@snowpack/plugin-dotenv": "2.0.5",
     "@snowpack/plugin-typescript": "1.1.1",
-    "@types/jest": "^26.0.19",
+    "@types/jest": "26.0.19",
     "@types/snowpack-env": "2.3.2",
     "@typescript-eslint/eslint-plugin": "4.11.1",
     "@typescript-eslint/parser": "4.11.1",
     "eslint": "7.16.0",
-    "husky": "^4.3.6",
-    "jest": "^26.6.3",
-    "lint-staged": "^10.5.3",
+    "husky": "4.3.6",
+    "jest": "26.6.3",
+    "lint-staged": "10.5.3",
     "prettier": "2.0.5",
     "snowpack": "2.18.4",
     "ts-jest": "26.4.4",
