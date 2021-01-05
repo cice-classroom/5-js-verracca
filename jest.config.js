@@ -3,7 +3,7 @@
  * https://jestjs.io/docs/en/configuration.html
  */
 
-module.export = {
+module.exports = {
   preset: 'ts-jest',
   automock: false,
   testEnvironment: 'node',

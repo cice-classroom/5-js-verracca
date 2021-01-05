@@ -1,20 +1,10 @@
-import {add} from "./engine"
-
+import { add } from './engine'
 
 describe('Engine', () => {
   it('should start with an empty board', () => {
-    const engine = new Engine()
-
-    const actual = engine.board
-
-    expect(actual).toEqual([
-      [null, null, null],
-      [null, null, null],
-      [null, null, null]
-    ])
+    expect(add(2, 2)).toBe(4)
   })
 })
-
 
 // import { Engine } from './engine'
 
