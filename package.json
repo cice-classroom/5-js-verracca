@@ -16,7 +16,7 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "test": "jest",
+    "test": "jest --coverage",
     "test:watch": "jest --watchAll",
     "format": "prettier --write --ignore-path .gitignore .",
     "lint": "eslint .",
